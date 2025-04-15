@@ -1,0 +1,55 @@
+.heading01 {
+    background-color: #fae205; /* Light yellow background color */
+    padding: 20px; /* Adds padding around the content inside the div */
+    border-radius: 100px; /* Rounded corners for a softer look */
+    box-shadow: 0 10px 10px rgba(253, 2, 2, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Centers the content inside the div */
+    margin-top: 10px; /* Space above the heading */
+    margin-bottom: 10px; /* Space below the heading */
+    max-width: 70%; /* Limits the width of the heading container */
+    margin-left: auto; /* Centers the container horizontally */
+    margin-right: auto; /* Centers the container horizontally */
+}
+.heading01:hover{
+    background-color: #fa4e04;
+}
+
+
+.heading01 h1 {
+    font-size: 1.5rem; /* Adjust font size for the heading */
+    font-weight: bold; /* Makes the font bold */
+    color: #0c0e05; /* Sets the text color (you can change this to any color you prefer) */
+    text-transform: uppercase; /* Optional: makes the text uppercase */
+    font-family: cursive;
+}
+.start {
+    background-color: rgba(0, 0, 0, 0.7); /* Dull black with transparency */
+    box-shadow: 0 90px 40px rgba(0, 0, 0, 0.8); /* Subtle shadow effect */
+    height: 100vh;
+}
+.ipl {
+       align-items: center;
+}
+.ipl img {
+    max-width: 10px; /* Adjust image size */
+    max-height: 10px;
+}
+.ipl a {
+    margin-top: 10px; /* Space between the link and the image */
+}
+.ipl a:hover{
+    background-color: #f85008;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fae205;
+    border: 100px;
+    font-size: 1rem;
+    border-radius: 100px;
+    color: #0c0e05;
+    font-family: cursive;
+}
+button:hover {
+    background-color: #f85008;
+}
